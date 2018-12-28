@@ -4,16 +4,22 @@ Selector {
 body {
   background-image: url(header.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .container-1 {
   padding: 1em;
   margin-top: 4em;
   border-left: 10em;
   border-right: 2em;
+  border-color: solid white;
 }
 .jumbotron {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: solid black;
+  display: inline-block;
+  border-color: white;
+  color: black;
 }
 img {
   border: solid white;
