@@ -4,8 +4,7 @@ Selector {
 body {
   background-image: url(header.jpg);
   height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
   font-family: serif;
 }
 h1 {
