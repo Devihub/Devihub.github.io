@@ -1,0 +1,84 @@
+Selector {
+  Property: Value;
+}
+body {
+  margin: auto 0;
+  font-family: Comic Sans MS;
+}
+.container-1 {
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.cover {
+  width: 30rem;
+}
+.main-nav {
+  cursor:pointer;
+  display: flex;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
+li {
+  padding: 20px;
+}
+a {
+  color: #f5f5f6;
+  text-decoration: none;
+}
+.push {
+  margin-left: auto;
+}
+.box-0 {
+  background: #56B870;
+  background: linear-gradient(top, #56B870 0%,#a5c956 100%);
+}
+.box-1 {
+  cursor:pointer;
+  background: white;
+  background: linear-gradient(top, #C655BE 0%,#cf0404 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.grid-wrapper {
+  cursor:pointer;
+  background: #7abcff;
+  background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+    padding: 130px;
+    margin: 20px;
+}
+
+.box {
+  background-color: #444;
+}
+
+footer {
+  cursor:pointer;
+  text-align: center;
+  background: #F3AAAA;
+  background: linear-gradient(top, #F3AAAA 0%,#febf04 100%);
+}
